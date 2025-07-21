@@ -1,0 +1,22 @@
+@import './labels.css';
+
+.periodContainer {
+    width: 301px;
+}
+
+.periodInput {
+    display: inline-block;
+    width: 100px;
+}
+
+.preLabel {
+    composes: pre-label from "./labels.css";
+}
+
+.postLabel {
+    composes: post-label from "./labels.css";
+}
+
+.row {
+    composes: row from "./row.css";
+}

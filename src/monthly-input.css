@@ -1,0 +1,33 @@
+.monthlyInput {
+    width: 301px;
+}
+
+.domPreLabel {
+    composes: pre-label from "./labels.css";
+}
+
+.preLabel {
+    display: inline-block;
+    margin-right: 10px;
+    width: 119px;
+    text-align: right;
+}
+
+.ordinal {
+    display: inline-block;
+}
+
+.dayOfMonthInput {
+    display: inline-block;
+    width: 100px;
+}
+
+.lastDayOfMonthInput {
+    display: inline-block;
+    height: 15px;
+    width: 100p;
+}
+
+.row {
+    composes: row from "./row.css";
+}
